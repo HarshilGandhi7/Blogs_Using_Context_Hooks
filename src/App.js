@@ -6,7 +6,7 @@ import Content from './Components/Content'
 import Blogs from "./Components/Blogs"
 export default function App() {
   return( 
-  <div>
+  <div >
     <Header ></Header>
     <Blogs></Blogs>
     <Footer></Footer>
