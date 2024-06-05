@@ -44,6 +44,7 @@ export default function ContentProvider({children}){
     function pageHandler(page){
         setpages(page);
         fetchData(page);
+        console.log("Hello");
     }
 
     useEffect(()=>{
